@@ -11,11 +11,14 @@ const ProductItem = (props) => {
             <img src={props.image} alt={props.title} />
           </div>
           <div className="container-infos">
-            <div className="product-price">
-              <h3>{props.price}</h3>
-            </div>
             <div className="product-title">
               <h2>{props.name}</h2>
+            </div>
+            <div className="product-casting">
+              <h3>{props.casting}</h3>
+            </div>
+            <div className="product-price">
+              <h3>{props.price}</h3>
             </div>
             <div className="product-rating">
               <h2>{props.rating}</h2>
