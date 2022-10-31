@@ -1,0 +1,20 @@
+.star-icon{
+    font-size: 15px;
+}
+
+.full{
+    color: rgb(255, 166, 0);
+}
+
+.half{
+    color: rgb(255, 166, 0);
+    
+}
+
+.empty{
+    color: lightgrey;
+}
+
+.final-star{
+    margin-right: 10px;
+}

@@ -9,8 +9,8 @@ const products = [
     category: "Thriller",
     price: "15€50",
     countInStock: "3",
-    rating: "4.0",
-    numReview: "20",
+    rating: "2.5",
+    numReview: "2",
   },
   {
     id: "2",
@@ -92,24 +92,24 @@ const products = [
   },
   {
     id: "8",
-    name: "School On Fire",
-    image: "https://media.senscritique.com/media/000019091971/300/school_on_fire.jpg",
-    casting: "Roy Chung",
+    name: "Maniac",
+    image: "https://p5.storage.canalblog.com/58/10/1349409/106661561.jpg",
+    casting: "Joe Spinell",
     description:
-      "Dans les années 90, à Hong-Kong. Des élèves d'une école sont harcelés par les chefs de triades. Deux policiers vont essayer de venir à bout de leurs méfaits, aidés par une des jeunes victimes, et un professeur à la morale de fer...",
-    category: "Drame",
-    price: "15€50",
+      "Un psychopathe sème la mort en ville en scalpant ses victimes pour recréer sa mère abusive décédée plusieurs années auparavant.",
+    category: "Horreur",
+    price: "18€50",
     countInStock: "9",
-    rating: "4.7",
+    rating: "3.8",
     numReview: "20",
   },
   {
     id: "9",
-    name: "School On Fire",
-    image: "https://media.senscritique.com/media/000019091971/300/school_on_fire.jpg",
-    casting: "Roy Chung",
+    name: "L'au-delà",
+    image: "https://www.horreur.net/sites/default/files/upload/audelacollector.jpg",
+    casting: "Luci Fulci",
     description:
-      "Dans les années 90, à Hong-Kong. Des élèves d'une école sont harcelés par les chefs de triades. Deux policiers vont essayer de venir à bout de leurs méfaits, aidés par une des jeunes victimes, et un professeur à la morale de fer...",
+      "Une jeune femme hérite d'un hôtel dans la Nouvelle Orléans. Alors qu'elle entreprend des travaux de rénovation, des phénomènes étranges font de sa vie un véritable enfer.",
     category: "Drame",
     price: "15€50",
     countInStock: "9",
@@ -129,19 +129,7 @@ const products = [
     rating: "4.7",
     numReview: "20",
   },
-  {
-    id: "11",
-    name: "Fin",
-    image: "https://media.senscritique.com/media/000019091971/300/school_on_fire.jpg",
-    casting: "Roy Chung",
-    description:
-      "Dans les années 90, à Hong-Kong. Des élèves d'une école sont harcelés par les chefs de triades. Deux policiers vont essayer de venir à bout de leurs méfaits, aidés par une des jeunes victimes, et un professeur à la morale de fer...",
-    category: "Drame",
-    price: "15€50",
-    countInStock: "9",
-    rating: "4.7",
-    numReview: "20",
-  },
+ 
 ];
 
 export default products;

@@ -11,16 +11,18 @@ const ProducList = () => {
 
   const handleClick = (direction) => {
     let distance = listRef.current.getBoundingClientRect().x;
-    let rightStop = Math.trunc(products.length / 2); 
+    let rightStop = Math.trunc((products.length + 1) / 2); 
  
     if (direction === "left" && slideNumber > 0) {
       setSlideNumber((prevslideNumber) => prevslideNumber - 1);
-      listRef.current.style.transform = `translateX(${230 + distance}px)`;
+      listRef.current.style.transform = `translateX(${240 + distance}px)`;
     }
 
-    if (direction === "right" && slideNumber < rightStop) {
+    if (direction === "right" && slideNumber <= rightStop) {
       setSlideNumber((prevslideNumber) => prevslideNumber + 1);
-      listRef.current.style.transform = `translateX(${-250 + distance}px)`;
+      listRef.current.style.transform = `translateX(${-260 + distance}px)`;
+      console.log(slideNumber)
+      console.log(rightStop)
      
     }
   };
@@ -49,6 +51,7 @@ const ProducList = () => {
                   price={item.price}
                   name={item.name}
                   rating={item.rating}
+                  numReview={item.numReview}
                 />
               );
             })}

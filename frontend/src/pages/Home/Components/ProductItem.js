@@ -1,6 +1,7 @@
 import React from "react";
 import "./ProductItem.css";
 import { Link } from "react-router-dom";
+import Rating from "../../../shared/components/UI/Rating";
 
 const ProductItem = (props) => {
   return (
@@ -21,7 +22,7 @@ const ProductItem = (props) => {
               <h3>{props.price}</h3>
             </div>
             <div className="product-rating">
-              <h2>{props.rating}</h2>
+              <Rating value={props.rating} text={`${props.numReview} ${props.numReview === '1' ? 'Critique' : 'Critiques'}`}/>
             </div>
           </div>
         </li>
